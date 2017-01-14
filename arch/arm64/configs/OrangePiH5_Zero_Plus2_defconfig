@@ -1219,8 +1219,8 @@ CONFIG_WLAN=y
 # CONFIG_WIFI_CONTROL_FUNC is not set
 # CONFIG_ATH_CARDS is not set
 CONFIG_BCMDHD=m
-CONFIG_BCMDHD_FW_PATH="/etc/firmware/fw_bcm43438a0.bin"
-CONFIG_BCMDHD_NVRAM_PATH="/etc/firmware/nvram_ap6212.txt"
+CONFIG_BCMDHD_FW_PATH="/system/vendor/modules/fw_bcmdhd.bin"
+CONFIG_BCMDHD_NVRAM_PATH="/system/vendor/modules/nvram.txt"
 CONFIG_BCMDHD_SDIO=y
 CONFIG_BCMDHD_OOB=y
 # CONFIG_BCMDHD_SDIO_IRQ is not set
@@ -1269,6 +1269,7 @@ CONFIG_INPUT_SW_DEVICE=m
 # Input Device Drivers
 #
 CONFIG_INPUT_KEYBOARD=y
+# CONFIG_SUNXI_GPIOKEY is not set
 # CONFIG_KEYBOARD_ADP5588 is not set
 # CONFIG_KEYBOARD_ADP5589 is not set
 CONFIG_KEYBOARD_ATKBD=y
