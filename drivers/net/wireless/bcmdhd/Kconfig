@@ -7,14 +7,14 @@ config BCMDHD
 config BCMDHD_FW_PATH
 	depends on BCMDHD
 	string "Firmware path"
-	default "/etc/firmware/fw_bcm43438a0.bin"
+	default "/etc/firmware/fw_bcm43438a1.bin"
 	---help---
 	  Path to the firmware file.
 
 config BCMDHD_NVRAM_PATH
 	depends on BCMDHD
 	string "NVRAM path"
-	default "/system/etc/firmware/nvram_ap6212.txt"
+	default "/etc/firmware/nvram_ap6212.txt"
 	---help---
 	  Path to the calibration file.
 
